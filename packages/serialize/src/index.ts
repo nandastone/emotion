@@ -362,6 +362,8 @@ function createStringFromObject(
     }
   }
 
+  string = string.replace(/;+/g, ';')
+
   return string
 }
 
